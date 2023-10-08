@@ -5,6 +5,22 @@ import { LuGraduationCap } from "react-icons/lu";
 import kristImg from "@/public/Krist.png";
 import nikeImg from "@/public/Nike.png";
 import LuxoImportImg from "@/public/Luxo-Import.png";
+import htmlImg from "@/public/skills/html5.png";
+import cssImg from "@/public/skills/css.png";
+import javascriptImg from "@/public/skills/javascript.png";
+import typescriptImg from "@/public/skills/typescript.png";
+import reactImg from "@/public/skills/react.png";
+import nextImg from "@/public/skills/next.png";
+import nodeImg from "@/public/skills/node.png";
+import gitImg from "@/public/skills/git.png";
+import tailwindImg from "@/public/skills/tailwind.png";
+import sassImg from "@/public/skills/sass.png";
+import materialUImg from "@/public/skills/mu5.png";
+import mongoDBImg from "@/public/skills/mongoDB.png";
+import reduxImg from "@/public/skills/redux.png";
+import graphqlImg from "@/public/skills/graphql.png";
+import expressImg from "@/public/skills/express.png";
+import framerMotionImg from "@/public/skills/framermotion.jpg";
 
 export const links = [
   {
@@ -91,23 +107,68 @@ export const projectsData = [
 ] as const;
 
 export const skillsData = [
-  "HTML",
-  "CSS",
-  "JavaScript",
-  "TypeScript",
-  "React",
-  "Next.js",
-  "Node.js",
-  "Git",
-  "Tailwind",
-  "Prisma",
-  "MongoDB",
-  "Redux",
-  "GraphQL",
-  "Apollo",
-  "Express",
-  "PostgreSQL",
-  "Python",
-  "Django",
-  "Framer Motion",
+  {
+    name: "Html",
+    image: htmlImg,
+  },
+  {
+    name: "Css",
+    image: cssImg,
+  },
+  {
+    name: "JavaScript",
+    image: javascriptImg,
+  },
+  {
+    name: "TypeScript",
+    image: typescriptImg,
+  },
+  {
+    name: "React",
+    image: reactImg,
+  },
+  {
+    name: "Next",
+    image: nextImg,
+  },
+  {
+    name: "Node.js",
+    image: nodeImg,
+  },
+  {
+    name: "Git",
+    image: gitImg,
+  },
+  {
+    name: "Tailwind",
+    image: tailwindImg,
+  },
+  {
+    name: "Sass",
+    image: sassImg,
+  },
+  {
+    name: "Material UI",
+    image: materialUImg,
+  },
+  {
+    name: "MongoDB",
+    image: mongoDBImg,
+  },
+  {
+    name: "Redux",
+    image: reduxImg,
+  },
+  {
+    name: "GraphQL",
+    image: graphqlImg,
+  },
+  {
+    name: "Express",
+    image: expressImg,
+  },
+  {
+    name: "Framer Motion",
+    image: framerMotionImg,
+  },
 ] as const;
