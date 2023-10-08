@@ -2,9 +2,9 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
-import rmtdevImg from "@/public/rmtdev.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
+import kristImg from "@/public/Krist.png";
+import nikeImg from "@/public/Nike.png";
+import LuxoImportImg from "@/public/Luxo-Import.png";
 
 export const links = [
   {
@@ -62,25 +62,31 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "Krist",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    imageUrl: corpcommentImg,
+      "I created this full responsive website incorporating a blog and a contact section working with EmailJs library. ",
+    tags: ["React", "EmailJs"],
+    githubUrl: "https://github.com/JorgeDaSilva72/react-voltaique",
+    projectUrl: "https://hervekrist.netlify.app/",
+    imageUrl: kristImg,
   },
   {
-    title: "rmtDev",
+    title: "Nike",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: rmtdevImg,
+      "A website developed for presentation purposes using React and Tailwind CSS.",
+    tags: ["React", "Tailwind"],
+    githubUrl: "https://github.com/JorgeDaSilva72/nike-landing-page",
+    projectUrl:
+      "https://nike-landing-page-89udso85g-jorgedasilva72.vercel.app/",
+    imageUrl: nikeImg,
   },
   {
-    title: "Word Analytics",
-    description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
+    title: "Luxo-Import",
+    description: "A car sales showcase website.",
+    tags: ["HTML", "CSS", "JAVASCRIPT"],
+    githubUrl: "https://github.com/JorgeDaSilva72/Luxo-import-Miranda",
+    projectUrl: "https://luxo-import-miranda.netlify.app/",
+    imageUrl: LuxoImportImg,
   },
 ] as const;
 
