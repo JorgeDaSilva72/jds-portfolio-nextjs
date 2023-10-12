@@ -50,20 +50,20 @@ export default function Project({
               </li>
             ))}
           </ul>
-          <div className="flex  sm:flex-row items-center justify-start gap-2 px-4 text-lg font-medium">
+          <div className="flex  mx-auto my-auto gap-4 px-4 text-lg font-medium">
             <a
               className=" p-2 text-gray-700 hover:text-gray-950 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
               href={githubUrl}
               target="_blank"
             >
-              <FaGithubSquare />
+              <FaGithubSquare className="h-8 w-8" />
             </a>
             <a
-              className=" p-2 text-gray-700 hover:text-gray-950 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
+              className="  p-2 text-gray-700 hover:text-gray-950 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
               href={projectUrl}
               target="_blank"
             >
-              <AiFillEye />
+              <AiFillEye className="h-8 w-8" />
             </a>
           </div>
         </div>
